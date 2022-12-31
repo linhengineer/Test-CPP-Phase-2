@@ -100,10 +100,15 @@ int main() {
 #endif
 
 /*
-In an effort to connect all airports with minimal costs, an airport authority needs to identify the minimum number of new flight connections so that it is possible to reach all airports from every other airport directly or indirectly.
-Airports and flight connections are represented by a boolean matrix. Airports are represented by numbers 0, 1, 2, and so on. So, if airport '0' is connected via a flight with airport '1' then elements [0][1] and [1][0] will have the value true, or false if there is no flight connectivity. All flights are bi-directional.
-The function getMinimumConnections accepts a two-dimensional array matrix. The function should return the minimum number of flight connections that need to be added so that all airports are reachable from every other airport, directly or indirectly.
-For example, the following code should print 1, as a minimum of 1 additional flight connection will connect all airports (directly or indirectly).
+In an effort to connect all airports with minimal costs, an airport authority needs to identify the minimum number of new
+flight connections so that it is possible to reach all airports from every other airport directly or indirectly.
+Airports and flight connections are represented by a boolean matrix. Airports are represented by numbers 0, 1, 2, and so on.
+So, if airport '0' is connected via a flight with airport '1' then elements [0][1] and [1][0] will have the value true, or
+false if there is no flight connectivity. All flights are bi-directional.
+The function getMinimumConnections accepts a two-dimensional array matrix. The function should return the minimum number
+of flight connections that need to be added so that all airports are reachable from every other airport, directly or indirectly.
+For example, the following code should print 1, as a minimum of 1 additional flight connection will connect all airports
+(directly or indirectly).
  
 std::vector<std::vector<bool>> matrix {
     {false, true, false, false, true},

@@ -32,8 +32,11 @@ int main() {
 #endif
 
 /*
-You are given two paper strips. On each strip, all numbers in the range [1, 2, ... N] are written in random order and no number is repeated. Cut the original paper strip into several pieces and rearrange those pieces to form the desired sequence.
-Write a function that, efficiently with respect to time used, returns the minimum number of cut pieces needed to perform the described operation.
+You are given two paper strips. On each strip, all numbers in the range [1, 2, ... N] are written in random order
+and no number is repeated. Cut the original paper strip into several pieces and rearrange those pieces to form the
+desired sequence.
+Write a function that, efficiently with respect to time used, returns the minimum number of cut pieces needed to
+perform the described operation.
 For example, the following code should display 3 because the pieces used should be (1), (4, 3), and (2):
 std::vector<int> original = { 1, 4, 3, 2 }; 
 std::vector<int> desired = { 1, 2, 4, 3 }; 
